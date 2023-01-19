@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@200;300;800&family=Roboto:wght@300;400&family=Sofia&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 13vh;
+    background-color: #FF6A28; 
+}
+
+h1 {
+    color: white;
+    width: 38%;
+    height: 13vh;
+    font-size: 280%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    font-family: 'Sofia', cursive;
+    letter-spacing: 2.5px;
+    text-shadow: 0 1px 1px #000, 0 -1px 1px #000, 1px 0 1px #000, -1px 0 1px #000;
+}
+
+main {
+    background-color: #F0F0F0;
+    width: 100%;
+    height: 150vh;
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    font-size: 40px;
+    width: 12vw;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 20vh;
+    font-family: 'Lobster', sans-serif
+}
+
+section {
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 1em;
+    width: 49%; 
+    height: 130vh;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 30vh;
+    background-color: white;
+}
+
+figure {
+    position: absolute;
+    top: 5vh;
+}
+
+img {
+    width: 35vw;
+    height: 50vh;
+    border: 3px solid #FF6A28;
+    border-radius: 1em;
+    position: relative;
+    left: 4vw;
+    bottom: 2vh;
+}
+
+p { 
+    font-weight: bold;
+    position: relative;
+    display: list-item;
+    font-size: 22px; 
+}
+
+ul {
+    padding-top: 1.5vh;
+    padding-left: 2.8vw;
+}
+
+li {
+    font-size: 20px;
+    width: 40vw;
+}
+
+ol {
+    padding-top: 1.5vh;
+    padding-left: 2.8vw; 
+}
